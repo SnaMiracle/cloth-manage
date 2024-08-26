@@ -1,0 +1,54 @@
+{% extends "home.html" %}
+{%load static%}
+{% block content %}
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <h1>
+      Dashboard
+      <small>Control panel</small>
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li class="active">Dashboard</li>
+    </ol>
+  </section>
+
+  <section class="content">
+    <!-- Small boxes (Stat box) -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box">
+          <div class="box-header with-border">
+            <h3 class="box-title"><a>Category Form</a></h3>
+          </div><!-- /.box-header -->
+          <div class="box-body">
+            <form class="form-horizontal" action="/category/post/" method="post">
+              {% csrf_token %}
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Name:</label>
+                <div class="col-sm-4">
+                  <input type="text" name="category_name" required class="form-control" id="email" placeholder="Enter Name">
+                </div>
+                {% if messages %}
+                      {% for message in messages %}
+                          <span>{{message}}</span>
+                      {% endfor %}
+                  {% endif %}
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-primary">Create</button>
+                  <a href="/category/index/">Back</a>
+                </div>
+              </div>
+            </form>
+          </div><!-- /.box-body -->
+          
+        </div><!-- /.box -->
+    </div><!-- /.row -->
+
+  </section>
+</div>
+
+  {% endblock %}

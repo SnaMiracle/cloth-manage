@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+{% extends "home.html" %}
+{% block content %}
+
+
+    <a href="/create_user/">Add</a>
+    <table class="table table-striped" >
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Password</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for col in users %}
+            <tr>
+                <td>{{ col.id }}</td>
+                <td>{{ col.name }}</td>
+                <td>{{ col.gender }}</td>
+                <td>{{ col.password }}</td>
+                <td>
+                    <a href="/edit_user/{{ col.id }}" class="glyphicon glyphicon-pencil" style="margin-right: 20px">Edit</a>
+                    <a href="/delete_user/{{ col.id }}" class="glyphicon glyphicon-trash text-danger">Delete</a>
+                </td>
+            </tr>
+        {% endfor %}
+
+        </tbody>
+    </table>
+
+{% endblock %}
+</body>
+</html>

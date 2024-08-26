@@ -1,0 +1,67 @@
+[
+  {
+    "id": 16,
+    "product_name": "Paper Rex",
+    "barcode": 4445,
+    "sell_price": 15.0,
+    "qty_instock": 0,
+    "photo": "media/jersey-front_fe537913-30fe-4af3-ba4c-5421d6648e7f.jpg",
+    "create_by": 1,
+    "update_by": 1,
+    "create_at": "25/8/2024 19:55:50.460842+07",
+    "update_at": null,
+    "category_id": 3
+  },
+  {
+    "id": 13,
+    "product_name": "sentinel",
+    "barcode": 1111,
+    "sell_price": 15.0,
+    "qty_instock": 0,
+    "photo": "media/ProJerseyUpdatedSponsors-JerseyFront.png.webp",
+    "create_by": 1,
+    "update_by": 1,
+    "create_at": "25/8/2024 19:59:41.596788+07",
+    "update_at": null,
+    "category_id": 3
+  },
+  {
+    "id": 15,
+    "product_name": "C9",
+    "barcode": 3333,
+    "sell_price": 15.0,
+    "qty_instock": 0,
+    "photo": "media/Unknown_hR1cznP.jpeg",
+    "create_by": 1,
+    "update_by": 1,
+    "create_at": "25/8/2024 20:00:24.876352+07",
+    "update_at": null,
+    "category_id": 3
+  },
+  {
+    "id": 14,
+    "product_name": "t1",
+    "barcode": 22225,
+    "sell_price": 15.0,
+    "qty_instock": 0,
+    "photo": "media/t1.jpeg",
+    "create_by": 1,
+    "update_by": 1,
+    "create_at": "25/8/2024 20:01:11.303917+07",
+    "update_at": null,
+    "category_id": 4
+  },
+  {
+    "id": 18,
+    "product_name": "test",
+    "barcode": 4543,
+    "sell_price": 15.0,
+    "qty_instock": 16,
+    "photo": "media/2024-06-14_18.39.36.jpg",
+    "create_by": 1,
+    "update_by": 1,
+    "create_at": "25/8/2024 20:12:42.714622+07",
+    "update_at": null,
+    "category_id": 3
+  }
+]

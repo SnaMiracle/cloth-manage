@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "app": "contenttypes",
+    "name": "0001_initial",
+    "applied": "5/8/2024 21:02:33.572814+07"
+  },
+  {
+    "id": 2,
+    "app": "auth",
+    "name": "0001_initial",
+    "applied": "5/8/2024 21:02:33.610833+07"
+  },
+  {
+    "id": 3,
+    "app": "admin",
+    "name": "0001_initial",
+    "applied": "5/8/2024 21:02:33.618287+07"
+  },
+  {
+    "id": 4,
+    "app": "admin",
+    "name": "0002_logentry_remove_auto_add",
+    "applied": "5/8/2024 21:02:33.621707+07"
+  },
+  {
+    "id": 5,
+    "app": "admin",
+    "name": "0003_logentry_add_action_flag_choices",
+    "applied": "5/8/2024 21:02:33.624222+07"
+  },
+  {
+    "id": 6,
+    "app": "contenttypes",
+    "name": "0002_remove_content_type_name",
+    "applied": "5/8/2024 21:02:33.62943+07"
+  },
+  {
+    "id": 7,
+    "app": "auth",
+    "name": "0002_alter_permission_name_max_length",
+    "applied": "5/8/2024 21:02:33.632102+07"
+  },
+  {
+    "id": 8,
+    "app": "auth",
+    "name": "0003_alter_user_email_max_length",
+    "applied": "5/8/2024 21:02:33.635055+07"
+  },
+  {
+    "id": 9,
+    "app": "auth",
+    "name": "0004_alter_user_username_opts",
+    "applied": "5/8/2024 21:02:33.63756+07"
+  },
+  {
+    "id": 10,
+    "app": "auth",
+    "name": "0005_alter_user_last_login_null",
+    "applied": "5/8/2024 21:02:33.640158+07"
+  },
+  {
+    "id": 11,
+    "app": "auth",
+    "name": "0006_require_contenttypes_0002",
+    "applied": "5/8/2024 21:02:33.640627+07"
+  },
+  {
+    "id": 12,
+    "app": "auth",
+    "name": "0007_alter_validators_add_error_messages",
+    "applied": "5/8/2024 21:02:33.642818+07"
+  },
+  {
+    "id": 13,
+    "app": "auth",
+    "name": "0008_alter_user_username_max_length",
+    "applied": "5/8/2024 21:02:33.648737+07"
+  },
+  {
+    "id": 14,
+    "app": "auth",
+    "name": "0009_alter_user_last_name_max_length",
+    "applied": "5/8/2024 21:02:33.651845+07"
+  },
+  {
+    "id": 15,
+    "app": "auth",
+    "name": "0010_alter_group_name_max_length",
+    "applied": "5/8/2024 21:02:33.655349+07"
+  },
+  {
+    "id": 16,
+    "app": "auth",
+    "name": "0011_update_proxy_permissions",
+    "applied": "5/8/2024 21:02:33.657722+07"
+  },
+  {
+    "id": 17,
+    "app": "auth",
+    "name": "0012_alter_user_first_name_max_length",
+    "applied": "5/8/2024 21:02:33.660587+07"
+  },
+  {
+    "id": 18,
+    "app": "myApp",
+    "name": "0001_initial",
+    "applied": "5/8/2024 21:02:33.663967+07"
+  },
+  {
+    "id": 19,
+    "app": "myApp",
+    "name": "0002_product",
+    "applied": "5/8/2024 21:02:33.677244+07"
+  },
+  {
+    "id": 20,
+    "app": "sessions",
+    "name": "0001_initial",
+    "applied": "5/8/2024 21:02:33.683207+07"
+  },
+  {
+    "id": 21,
+    "app": "myApp",
+    "name": "0003_alter_product_update_by",
+    "applied": "25/8/2024 18:28:02.274586+07"
+  }
+]
